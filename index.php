@@ -21,6 +21,9 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="fi2015_log">
+            <img src="/images/fi2015_logo.png" alt=""/>
+        </div>
         <div class="top">
             <div class="logo">
                 <a href="/"><img src="/images/logo.png" alt=""/></a>

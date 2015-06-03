@@ -774,3 +774,8 @@ input[type=text]
     height: 150px!important;
 }
 
+.fi2015_log {
+    float: left;
+    position: absolute;
+    right: 30px;
+}
