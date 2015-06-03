@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>YouFree.kz</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/jquery.jscrollpane.css" />
 
@@ -14,7 +14,7 @@
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-8168527-26', 'youfree.kz');
@@ -23,33 +23,33 @@
     </script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <div class="logo">
-                <a href="/"><img src="/images/logo.png" alt=""/></a>
+<div class="wrapper">
+    <div class="top">
+        <div class="logo">
+            <a href="/"><img src="/images/logo.png" alt=""/></a>
+        </div>
+        <div class="buttons">
+            <div id="register">
+                <a href="#" class="topopup"><img src="/images/register.png" alt=""/></a>
             </div>
-            <div class="buttons">
-                <div id="register">
-                    <a href="#" class="topopup"><img src="/images/register.png" alt=""/></a>
-                </div>
-                <div id="game">
-                    <a href="/game.php"><img src="/images/game.png" alt=""/></a>
-                </div>
+            <div id="game">
+                <a href="/game.php"><img src="/images/game.png" alt=""/></a>
             </div>
         </div>
-        <div class="content">
-            <div class="tabs">
-                <div class="not">
-                    <a href="/surfing.php"><img src="/images/tab1.png" alt=""/></a>
-                </div>
-                <div id="active">
-                    <img src="/images/tab2_a.png" alt=""/>
-                </div>
-                <div class="not">
-                    <a href="/cliff.php"><img src="/images/tab3.png" alt=""/></a>
-                </div>
+    </div>
+    <div class="content">
+        <div class="tabs">
+            <div class="not">
+                <a href="/surfing.php"><img src="/images/tab1.png" alt=""/></a>
             </div>
-        <div class="description">
+            <div id="active">
+                <img src="/images/tab2_a.png" alt=""/>
+            </div>
+            <div class="not">
+                <a href="/cliff.php"><img src="/images/tab3.png" alt=""/></a>
+            </div>
+        </div>
+        <div class="description"">
             <h2>Вытворяй на воде невозможное!</h2>
 
             <p>Валяться просто так на пляже – скучно. Пару часов такого отдыха – и начинаешь искать, чем бы заняться.
@@ -86,30 +86,33 @@
                 удивлять. Но, к счастью, в мире есть еще много талантливых ученых и гениальных изобретателей,
                 которые обязательно придумают что-то новенькое! А пока они придумывают, заходи посмотреть на
                 удивительное <a class="topopup" href="">сюда!</a> </p>
-        </div>
+
+                <div style="width: 100%; height: 10px; margin-top: -300px;"></div>
 
         </div>
-        <div class="back">
-            <a href="/"><img src="/images/back.png" alt=""/></a>
-        </div>
+
     </div>
+    <div class="back">
+        <a href="/"><img src="/images/back.png" alt=""/></a>
+    </div>
+</div>
 
 <!---->
-        <div class="toPopup">
-            <div class="close"></div>
-            <span class="ecs_tooltip">Press Esc to close <span class="arrow"></span></span>
-            <div id="popup_content">
-                <!--<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://youwin.kz/accounts/register/" method="post" enctype="application/x-www-form-urlencoded;charset=UTF-8">-->
-                <!--<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://127.0.0.1:8000/accounts/register/" method="post" enctype="application/x-www-form-urlencoded;charset=UTF-8">-->
-                <?php include 'form.php' ?>
-            </div>
-            <div class="policy">
-                Нажимая кнопку «Далее», Вы соглашаетесь с получением информации от youwin.kz любыми средствами связи.
-            </div>
-        </div>
-        <div class="loader"></div>
-        <div id="backgroundPopup"></div>
+<div class="toPopup">
+    <div class="close"></div>
+    <span class="ecs_tooltip">Press Esc to close <span class="arrow"></span></span>
+    <div id="popup_content">
+        <!--<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://youwin.kz/accounts/register/" method="post" enctype="application/x-www-form-urlencoded;charset=UTF-8">-->
+        <!--<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://127.0.0.1:8000/accounts/register/" method="post" enctype="application/x-www-form-urlencoded;charset=UTF-8">-->
+        <?php include 'form.php' ?>
     </div>
+    <div class="policy">
+        Нажимая кнопку «Далее», Вы соглашаетесь с получением информации от youwin.kz любыми средствами связи.
+    </div>
+</div>
+<div class="loader"></div>
+<div id="backgroundPopup"></div>
+</div>
 
 <!---->
 

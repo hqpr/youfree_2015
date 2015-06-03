@@ -37,11 +37,12 @@
         <div class="slider">
 
              <div id="slider" class="nivoSlider">
-                 <a href="#" class="topopup"><img src="images/b5.jpg" data-thumb="images/b5.jpg" alt="" data-transition="boxRainGrowReverse" /></a>
-                 <a href="/cliff.php"><img src="images/b4.jpg" data-thumb="images/b4.jpg" alt="" data-transition="boxRainGrowReverse" /></a>
+                 <a href="#" class="topopup"><img src="images/b1.jpg" data-thumb="images/b1.jpg" alt="" data-transition="boxRainGrowReverse"  /></a>
                  <a href="/surfing.php"><img src="images/b3.jpg" data-thumb="images/b3.jpg" alt="" data-transition="boxRainGrowReverse" /></a>
                  <a href="/party.php"><img src="images/b2.jpg" data-thumb="images/b2.jpg" alt="" data-transition="boxRainGrowReverse"  /></a>
-                 <a href="#" class="topopup"><img src="images/b1.jpg" data-thumb="images/b1.jpg" alt="" data-transition="boxRainGrowReverse"  /></a>
+                 <a href="/cliff.php"><img src="images/b4.jpg" data-thumb="images/b4.jpg" alt="" data-transition="boxRainGrowReverse" /></a>
+                 <a href="#" class="topopup"><img src="images/b5.jpg" data-thumb="images/b5.jpg" alt="" data-transition="boxRainGrowReverse" /></a>
+
             </div>
 
         </div>
