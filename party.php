@@ -36,6 +36,9 @@
                 <a href="/game.php"><img src="/images/game.png" alt=""/></a>
             </div>
         </div>
+        <div class="fi2015_log">
+            <img src="/images/fi_logo.png" alt=""/>
+        </div>
     </div>
     <div class="content">
         <div class="tabs">

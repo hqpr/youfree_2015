@@ -29,6 +29,9 @@
                     <a href="#" class="topopup"><img src="/images/register.png" alt=""/></a>
                 </div>
             </div>
+            <div class="fi2015_log">
+                <img src="/images/fi_logo.png" alt=""/>
+            </div>            
         </div>
 
     <div class="quiz seven">
