@@ -11,11 +11,12 @@
         })
 	})(jQuery)
 </script>
-<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://youwin.kz/accounts/register/" method="post" enctype="application/x-www-form-urlencoded;charset=UTF-8">
+<form onSubmit="ga('send', 'event', 'reg_form', 'submited', 'registration');" autocomplete="off" id="form" action="http://youwin.kz/accounts/login/?open_registration_popup=1" method="get" enctype="application/x-www-form-urlencoded;charset=UTF-8">
 
 
     <div class="left_col">
         <label>Имя*</label><br/>
+        <input type="hidden" value="1" name="open_registration_popup"/>
         <input id="first_name" name="first_name" type="text"">
         <div style="font-size: 14px; color: #cccaca; margin-top: -10px;">Ваше имя кириллицей</div>
 
