@@ -81,7 +81,7 @@ body {
     width: 335px;
     float: left;
     height: 51px;
-    margin-left: 239px;
+    margin-left: 50px;
 }
     #register {
         width: 187px;
@@ -776,6 +776,7 @@ input[type=text]
 
 .fi2015_log {
     float: left;
-    position: absolute;
-    right: 30px;
+    padding-left: 20px;
+    position: relative;
+    top: -10px;
 }

@@ -21,9 +21,7 @@
 </head>
 <body>
     <div class="wrapper">
-<!--        <div class="fi2015_log">-->
-<!--            <img src="/images/fi2015_logo.png" alt=""/>-->
-<!--        </div>-->
+
         <div class="top">
             <div class="logo">
                 <a href="/"><img src="/images/logo.png" alt=""/></a>
@@ -35,6 +33,9 @@
                 <div id="game">
                     <a href="/game.php"><img src="/images/game.png" alt=""/></a>
                 </div>
+            </div>
+            <div class="fi2015_log">
+                <img src="/images/fi_logo.png" alt=""/>
             </div>
         </div>
         <div class="slider">
